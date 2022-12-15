@@ -80,7 +80,7 @@ The client and I designed the website together.
 Html, CSS, Javascript, and Bootstrap.
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://dearassassin.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://ericpolley.github.io/dearassassin/">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/dearassassin">Github</a>
           </div></div> 
         {/*Card end*/}

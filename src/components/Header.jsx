@@ -41,8 +41,9 @@ export default function Header() {
                 </div> 
 
   
-{/* NAV BUTTON DECOY */}
-  <div className="sm:hidden relative inline-block text-left">
+{/* NAV BUTTON*/}
+  <div className="sm:hidden relative inline-block text-left mt-4">
+    {/* NAV BUTTON DECOY */}
   <div id="navDecoy">
     <button onClick={showNav} type="button" className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">

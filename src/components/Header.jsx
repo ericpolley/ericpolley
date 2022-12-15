@@ -64,12 +64,13 @@ export default function Header() {
 
   <div id="myLinks" className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
     <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}>   
-
-    <p> <Link to="/about" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link></p>
-    <p> <Link to="/blog" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link></p>
-    <p> <Link to="/contact" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link></p>
     <p> <Link to="/portfolio" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Portfolio</span></Link></p>
-    <p> <Link to="/videos" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Videos</span></Link></p>         
+    <p> <Link to="/videos" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Videos</span></Link></p> 
+    <p> <Link to="/blog" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link></p>
+    <p> <Link to="/about" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link></p>
+    <p> <Link to="/contact" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link></p>
+    
+        
       <form method="POST" action="#" role="none">
       </form>
     </div>
@@ -81,11 +82,13 @@ export default function Header() {
 
 {/* NAV BAR sm and larger */}
             <p className='mt-8 hidden sm:block'>
-                <Link to="/about" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link>
+            <Link to="/portfolio" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Portfolio</span></Link>
+            <Link to="/videos" className=' mr-2 md:mr-4 focus:text-blue-500 text-blue-700 hover:text-blue-300'><span>Videos</span></Link>
                 <Link to="/blog" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link>
-                <Link to="/contact" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link>
-                <Link to="/portfolio" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Portfolio</span></Link>
-                <Link to="/videos" className=' mr-2 md:mr-4 focus:text-blue-500 text-blue-700 hover:text-blue-300'><span>Videos</span></Link>
+                <Link to="/about" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link>
+                <Link to="/contact" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link>    
+               
+                
             </p>
             </div>
         </div>

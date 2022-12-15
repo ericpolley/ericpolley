@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <div>
        <div className='w-full text-center'>
-      <h1 className='text-2xl font-medium'>Videos</h1>
+      <h1 className='text-2xl font-medium'>Portfolio</h1>
       <div className='flex flex-row flex-wrap'>
       {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>

@@ -74,7 +74,7 @@ The client and I designed the website together.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>dearassassin.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px]" src="https://dearassassin.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px]" src="http://dearassassin.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive landing page for a rock band. <br />
 Html, CSS, Javascript, and Bootstrap.

@@ -29,7 +29,7 @@ export default function Portfolio() {
 React.js, tailwind, and the react-router-dom.
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://palagea.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://palagea.com/">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/firebaseshop2">Github</a>
           </div></div> 
         {/*Card end*/}

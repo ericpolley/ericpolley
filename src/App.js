@@ -17,6 +17,8 @@ function App() {
     <>
     <Router>
       <Header />
+      <div className='w-full flex justify-center'>
+      <div className='border-8 w-[95vw] sm:w-[90vw]'>
     <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
@@ -25,6 +27,8 @@ function App() {
     <Route path="/portfolio" element={<Portfolio />} />
     <Route path="/videos" element={<Videos />} />
     </Routes>
+    </div>
+    </div>
     </Router>
     </>
   );

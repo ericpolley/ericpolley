@@ -30,23 +30,24 @@ export default function Header() {
         
     <div className='w-full flex flex-row justify-center shadow-xl mb-4 '>
    {/* NAV BAR */}
-        <div className='w-[80vw] flex justify-between mb-4'>
+        <div className='w-[80vw] flex justify-between mb-4 font-semibold'>
 
             {/* NAV BAR LOGO */}
-            <div className='mt-4'>Logo</div>         
+            <div className='mt-4 text-3xl'>
+            <Link to="/" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>
+                <span className=' text-blue-700 hover:text-blue-300'>ericpolley</span>
+                <span className=' text-blue-900 hover:text-blue-300'>.com</span>
+                </Link>        
+                </div> 
 
   
 {/* NAV BUTTON DECOY */}
   <div className="sm:hidden relative inline-block text-left">
-
   <div id="navDecoy">
-
     <button onClick={showNav} type="button" className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
- 
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
-
     </button>
   </div>
 {/* NAV BUTTON */}
@@ -58,32 +59,32 @@ export default function Header() {
 </svg>
     </button>
 
-  <div id="myLinks" className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
-    <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}>
-     
-    <p><Link to="/" className=' mr-3'><span>Home</span></Link></p>
-    <p> <Link to="/about" className=' mr-3'><span>About</span></Link></p>
-    <p> <Link to="/blog" className=' mr-3'><span>Blog</span></Link></p>
-    <p> <Link to="/contact" className=' mr-3'><span>Contact</span></Link></p>
-    <p> <Link to="/portfolio" className=' mr-3'><span>Portfolio</span></Link></p>
-    <p> <Link to="/video" className=' mr-3'><span>Videos</span></Link></p>
-            
-      <form method="POST" action="#" role="none">
+    {/* Drop Down Menu */}
 
+  <div id="myLinks" className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
+    <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}>   
+
+    <p> <Link to="/about" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link></p>
+    <p> <Link to="/blog" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link></p>
+    <p> <Link to="/contact" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link></p>
+    <p> <Link to="/portfolio" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Portfolio</span></Link></p>
+    <p> <Link to="/videos" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Videos</span></Link></p>         
+      <form method="POST" action="#" role="none">
       </form>
     </div>
   </div>
 </div>
+
+
 </div>
 
 {/* NAV BAR sm and larger */}
-            <p className='mt-4 hidden sm:block'>
-                <Link to="/" className=' mr-3'><span>Home</span></Link>
-                <Link to="/about" className=' mr-3'><span>About</span></Link>
-                <Link to="/blog" className=' mr-3'><span>Blog</span></Link>
-                <Link to="/contact" className=' mr-3'><span>Contact</span></Link>
-                <Link to="/portfolio" className=' mr-3'><span>Portfolio</span></Link>
-                <Link to="/video" className=' mr-3'><span>Videos</span></Link>
+            <p className='mt-8 hidden sm:block'>
+                <Link to="/about" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link>
+                <Link to="/blog" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link>
+                <Link to="/contact" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link>
+                <Link to="/portfolio" className=' mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Portfolio</span></Link>
+                <Link to="/videos" className=' mr-2 md:mr-4 focus:text-blue-500 text-blue-700 hover:text-blue-300'><span>Videos</span></Link>
             </p>
             </div>
         </div>

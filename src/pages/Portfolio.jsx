@@ -23,7 +23,7 @@ export default function Portfolio() {
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>palagea.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px]" src="http://palagea.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px]" src="https://palagea.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive website for a Signing Agent/Notary Service. <br />
 React.js, tailwind, and the react-router-dom.
@@ -36,12 +36,12 @@ React.js, tailwind, and the react-router-dom.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>Dungeons to Fungeons</p>
-          <iframe className="shadow-lg w-[95%] h-[340px]" src="http://dtf.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px]" src="https://dtf.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A multi-page responsive Bootstrap website for a free board game I designed. <br />
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://dtf.ericpolley.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://dtf.ericpolley.com/">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/dungeonstofungeons">Github</a>
           </div></div> 
         {/*Card end*/}
@@ -74,26 +74,26 @@ The client and I designed the website together.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>dearassassin.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px]" src="http://dearassassin.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px]" src="https://dearassassin.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive landing page for a rock band. <br />
 Html, CSS, Javascript, and Bootstrap.
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://dearassassin.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://dearassassin.com/">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/dearassassin">Github</a>
           </div></div> 
         {/*Card end*/}
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>Samson Says</p>
-          <iframe className="shadow-lg w-[90%] h-[280px]" src="http://samson.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[90%] h-[280px]" src="https://samson.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A memory game built with HTML, CSS, and Javascript <br />
 Responsive design for mobile, tablet, and desktop
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://samson.ericpolley.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://samson.ericpolley.com/">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/samsonsays">Github</a>
           </div></div> 
         {/*Card end*/}
@@ -101,12 +101,12 @@ Responsive design for mobile, tablet, and desktop
          {/* CARD */}
          <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200'>
           <p className=' font-semibold text-lg m-4'>My portfolio website - October 2022</p>
-          <iframe className="shadow-lg w-[90%] h-[280px]" src="http://thunderous-cajeta-7b34b7.netlify.app" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[90%] h-[280px]" src="https://thunderous-cajeta-7b34b7.netlify.app" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
             Created with React
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="http://thunderous-cajeta-7b34b7.netlify.app">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://thunderous-cajeta-7b34b7.netlify.app">Project Link </a>
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/ericpolleyreact">Github</a>
           </div></div> 
         {/*Card end*/}

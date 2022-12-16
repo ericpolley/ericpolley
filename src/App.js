@@ -20,12 +20,13 @@ function App() {
       <div className='w-full flex justify-center'>
       <div className='border-8 border-slate-300 w-[95vw] sm:w-[90vw]'>
     <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/blog" element={<Blog />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="/portfolio" element={<Portfolio />} />
-    <Route path="/videos" element={<Videos />} />
+
+    <Route exact path="/" element={<Home />} />
+    <Route exact path="/about" element={<About />} />
+    <Route exact path="/blog" element={<Blog />} />
+    <Route exact path="/contact" element={<Contact />} />
+    <Route exact path="/portfolio" element={<Portfolio />} />
+    <Route exact path="/videos" element={<Videos />} />
     </Routes>
     </div>
     </div>

@@ -1,5 +1,5 @@
 
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {HashRouter as Router, Route, Routes, } from 'react-router-dom';
 
 import './App.css';
 import Header from './components/Header';
@@ -27,10 +27,14 @@ function App() {
     <Route exact path="/contact" element={<Contact />} />
     <Route exact path="/portfolio" element={<Portfolio />} />
     <Route exact path="/videos" element={<Videos />} />
+
     </Routes>
     </div>
     </div>
     </Router>
+
+    
+    
     </>
   );
 }

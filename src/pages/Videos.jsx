@@ -7,17 +7,17 @@ export default function Videos() {
 
       <div className='flex flex-col lg:flex-row w-full'>
 
-      <div className='flex flex-col w-full  items-center bg-slate-200 lg:mr-6'>
+      <div className='flex flex-col w-full  items-center bg-slate-200 lg:mr-6 rounded-xl border-4 border-slate-300 lg:m-4'>
         <p className='text-2xl mb-4 mt-4'>Vlog Videos</p>
-        <iframe className="shadow-xl mb-4 w-[85vw] md:h-[350px]  lg:w-[440px] lg:h-[250px]" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7dNEL7F1T4kxAp0mMuattO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px]  lg:w-[440px] lg:h-[250px] border-8 rounded-xl border-slate-400" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7dNEL7F1T4kxAp0mMuattO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
         <p className='text-md lg:mb-12 mt-4 pt-2 pr-5 pl-5 pb-5'>This is my monthly video update on my progress as a Software Engineer. I record them at the beginning of every
          month, check it out now!</p><br />
       </div>
 
-      <div className='flex flex-col w-full items-center bg-slate-200'>
+      <div className='flex flex-col w-full items-center bg-slate-200  rounded-xl border-4 border-slate-300 lg:m-4'>
         <p className='text-2xl mb-4 lg:mt-4'>Tutorials</p>
-        <iframe className="shadow-xl mb-4 w-[85vw] md:h-[350px] lg:w-[440px] lg:h-[250px]" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7cHSt2HV5esEjQJKOG2GHG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px] lg:w-[440px] lg:h-[250px] border-8 rounded-xl border-slate-400" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7cHSt2HV5esEjQJKOG2GHG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
         <p className='text-md lg:mb-12 mt-4 pt-2 pr-5 pl-5 pb-5'>
         Some of my tutorials are very long, and some tutorials are 80 seconds. <br />

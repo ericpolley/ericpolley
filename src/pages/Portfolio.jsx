@@ -5,9 +5,9 @@ export default function Portfolio() {
     <div>
        <div className='w-full text-center'>
       <h1 className='text-2xl font-medium'>Portfolio</h1>
-      <div className='flex flex-row flex-wrap'>
+      <div className='flex flex-row flex-wrap justify-center'>
       {/* CARD */}
-      <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      <div className='lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Resume</p>
           <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://resume.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>

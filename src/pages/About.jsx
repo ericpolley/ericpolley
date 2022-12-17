@@ -12,7 +12,7 @@ export default function About() {
         I have always had an interest in technology and I am excited about the next big thing. <br /><br /><br />
 
         </p>
-        <iframe className="shadow-xl mb-28 w-[85vw] h-[210px] md:w-[82vw] md:h-[480px] lg:w-[82vw] lg:h-[540px]" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7dNEL7F1T4kxAp0mMuattO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe className=" border-4 border-slate-400 rounded-2xl shadow-2xl mb-28 w-[85vw] h-[210px] md:w-[82vw] md:h-[480px] lg:w-[82vw] lg:h-[540px]" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7dNEL7F1T4kxAp0mMuattO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
       </div> </div>
   )

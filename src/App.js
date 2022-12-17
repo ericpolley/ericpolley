@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Header />
       <div className='w-full flex justify-center'>
-      <div className='border-8 border-slate-300 w-[95vw] sm:w-[90vw]'>
+      <div className='border-8 border-slate-300 w-[95vw] sm:w-[90vw] rounded-xl'>
     <Routes>
 
     <Route exact path="/" element={<Home />} />

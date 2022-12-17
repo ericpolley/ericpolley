@@ -9,7 +9,7 @@ export default function Portfolio() {
       {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Resume</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://resume.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://resume.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
             This is my current resume. <br /> Created with Bootstrap. 
             </p>
@@ -23,7 +23,7 @@ export default function Portfolio() {
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>palagea.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://palagea.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://palagea.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive website for a Signing Agent/Notary Service. <br />
 React.js, tailwind, and the react-router-dom.
@@ -36,7 +36,7 @@ React.js, tailwind, and the react-router-dom.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Dungeons to Fungeons</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://dtf.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://dtf.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A multi-page responsive Bootstrap website for a free board game I designed. <br />
             </p>
@@ -48,7 +48,7 @@ React.js, tailwind, and the react-router-dom.
                 {/* CARD */}
                 <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Portfolio website September 2022</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://ericpolley.github.io/www.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://ericpolley.github.io/www.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
             This is an old portfolio website for Eric Polley. <br />
             Html, Css, and Javascript.
@@ -61,7 +61,7 @@ React.js, tailwind, and the react-router-dom.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Kouvradio.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://kouvradio.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://kouvradio.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive Bootstrap website for an internet radio company.
 The client and I designed the website together.
@@ -74,7 +74,7 @@ The client and I designed the website together.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>dearassassin.com</p>
-          <iframe className="shadow-lg w-[95%] h-[340px] border-2 rounded-md border-slate-400" src="https://ericpolley.github.io/dearassassin/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://ericpolley.github.io/dearassassin/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A responsive landing page for a rock band. <br />
 Html, CSS, Javascript, and Bootstrap.
@@ -87,7 +87,7 @@ Html, CSS, Javascript, and Bootstrap.
         {/* CARD */}
         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>Samson Says</p>
-          <iframe className="shadow-lg w-[90%] h-[280px] border-2 rounded-md border-slate-400" src="https://samson.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[90%] h-[280px] border-4 rounded-md border-slate-400" src="https://samson.ericpolley.com/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
           A memory game built with HTML, CSS, and Javascript <br />
 Responsive design for mobile, tablet, and desktop
@@ -101,7 +101,7 @@ Responsive design for mobile, tablet, and desktop
          {/* CARD */}
          <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
           <p className=' font-semibold text-lg m-4'>My portfolio website - October 2022</p>
-          <iframe className="shadow-lg w-[90%] h-[280px] border-2 rounded-md border-slate-400" src="https://thunderous-cajeta-7b34b7.netlify.app" title="website" height="200"></iframe>
+          <iframe className="shadow-lg w-[90%] h-[280px] border-4 rounded-md border-slate-400" src="https://thunderous-cajeta-7b34b7.netlify.app" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
             Created with React
             </p>

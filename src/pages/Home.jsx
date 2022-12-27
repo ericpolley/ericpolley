@@ -10,7 +10,7 @@ export default function Home() {
       <br /><br />
       </p>
       <Link to="/portfolio" className='flex items-center justify-center'>
-      <img className='rounded-full border-8 border-slate-400 md:m-4 md:w-[30%] w-[70%]' 
+      <img className='rounded-full border-8 mb-4 border-slate-300 md:m-4 md:w-[30%] w-[70%]' 
       src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/309513797_10228947023368621_5565939701859507103_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ArItgucSD0QAX8IS9zL&_nc_ht=scontent-sea1-1.xx&oh=00_AfANrzPFFkl7UGoz01uIDoAMcYn8WUJbXZlZE2rTL82VCw&oe=63AF930B" alt="eric"></img>
      </Link>
      

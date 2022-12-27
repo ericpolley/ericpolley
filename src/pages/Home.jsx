@@ -11,7 +11,7 @@ export default function Home() {
       </p>
       <Link to="/portfolio">
       <img className='rounded-full border-8 border-slate-400 m-4' 
-      src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/309513797_10228947023368621_5565939701859507103_n.jpg?stp=dst-jpg_p206x206&_nc_cat=101&ccb=1-7&_nc_sid=da31f3&_nc_ohc=KN4IGS7z2_8AX_QJfVI&_nc_ht=scontent-sea1-1.xx&oh=00_AfAB76OuxzWtA1x1ehRNUDBjDjJ_LvN39nzuL2PE3EdPMg&oe=639FC10B" alt="eric"></img>
+      src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/309513797_10228947023368621_5565939701859507103_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ArItgucSD0QAX8IS9zL&_nc_ht=scontent-sea1-1.xx&oh=00_AfANrzPFFkl7UGoz01uIDoAMcYn8WUJbXZlZE2rTL82VCw&oe=63AF930B" alt="eric"></img>
      </Link>
       <p><br /><br /><br /><br /><br /><br /><br /></p>
     </div>

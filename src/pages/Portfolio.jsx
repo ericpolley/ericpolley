@@ -18,6 +18,20 @@ export default function Portfolio() {
           <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/resume.ericpolley.com">Github</a>
           </div></div> 
         {/*Card end*/}
+
+         {/* CARD */}
+         <div className='lg:w-[30%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+          <p className=' font-semibold text-lg m-4'>Bahagafish News</p>
+          <iframe className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400" src="https://news.ericpolley.com/" title="website" height="200"></iframe>
+          <p className='mb-2 mt-2 text-sm'>
+          A responsive website for a Signing Agent/Notary Service. <br />
+React.js, tailwind, and the react-router-dom.
+            </p>
+          <div className='mb-2 mt-2'>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://news.ericpolley.com/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/BahagaFish">Github</a>
+          </div></div> 
+        {/*Card end*/}
         
 
         {/* CARD */}

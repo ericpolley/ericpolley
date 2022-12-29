@@ -33,10 +33,12 @@ export default function Header() {
         <div className='w-[80vw] flex justify-between mb-4 font-semibold'>
 
             {/* NAV BAR LOGO */}
-            <div className='mt-4 text-3xl'>
+            <div className='mt-4'>
             <Link to="/" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>
+              <h1 className=' text-3xl font-medium'>
                 <span className=' text-blue-700 hover:text-blue-300'>ericpolley</span>
                 <span className=' text-blue-900 hover:text-blue-300'>.com</span>
+                </h1>
                 </Link>        
                 </div> 
 

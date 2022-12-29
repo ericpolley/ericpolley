@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div className='w-full text-center '>
-      <h1 className='text-2xl font-medium mt-4'>About</h1>
+      <h1 className='text-2xl font-medium '>About</h1>
 
       <div className='flex flex-col w-full mt-8 justify-center items-center'>
         <p className='text-lg font-medium mb-6'>About Eric Polley</p>

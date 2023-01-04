@@ -47,11 +47,11 @@ export default function Blog() {
      <h1 className='text-2xl font-medium  '>Blog</h1>
      <div className='flex flex-row flex-wrap justify-center'>
                   {/* CARD */}
-<div onClick={()=>navigate('/blog/035')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+<div onClick={()=>navigate('/blog/03')}
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog035 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog035 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -59,10 +59,10 @@ export default function Blog() {
         {/*Card end*/}
             {/* CARD */}
 <div onClick={()=>navigate('/blog/034')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog034 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog034 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -70,10 +70,10 @@ export default function Blog() {
         {/*Card end*/}
       {/* CARD */}
 <div onClick={()=>navigate('/blog/033')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog033 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog033 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -81,10 +81,10 @@ export default function Blog() {
         {/*Card end*/}
 {/* CARD */}
 <div onClick={()=>navigate('/blog/032')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog032 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog032 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -92,10 +92,10 @@ export default function Blog() {
         {/*Card end*/}
       {/* CARD */}
       <div onClick={()=>navigate('/blog/031')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog031 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog031 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -103,10 +103,10 @@ export default function Blog() {
         {/*Card end*/}
               {/* CARD */}
       <div onClick={()=>navigate('/blog/030')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog030 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog030 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -114,10 +114,10 @@ export default function Blog() {
         {/*Card end*/}
                      {/* CARD */}
       <div onClick={()=>navigate('/blog/029')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog029 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog029 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -125,10 +125,10 @@ export default function Blog() {
         {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/028')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog028 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog028 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -136,10 +136,10 @@ export default function Blog() {
         {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/027')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog027 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog027 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -147,10 +147,10 @@ export default function Blog() {
         {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/026')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog026 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog026 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -158,10 +158,10 @@ export default function Blog() {
         {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/025')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog025 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog025 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -170,10 +170,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/024')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog024 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog024 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -182,10 +182,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/023')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog023 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog023 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -194,10 +194,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/022')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog022 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog022 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -206,10 +206,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/021')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog021 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog021 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -218,10 +218,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/020')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog020 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog020 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -230,10 +230,10 @@ export default function Blog() {
            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/019')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog019 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog019 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -242,10 +242,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/018')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog018 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog018 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -254,10 +254,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/017')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog017 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog017 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -266,10 +266,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/016')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog016 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog016 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -278,10 +278,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/015')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog015 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog015 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -290,10 +290,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/014')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog014 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog014 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -302,10 +302,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/013')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog013 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog013 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -314,10 +314,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/012')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog012 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog012 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -326,10 +326,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/011')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog011 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog011 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -338,10 +338,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/010')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog010 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog010 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -350,10 +350,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/009')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog009 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog009 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -362,10 +362,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/008')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog008 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog008 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -374,10 +374,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/007')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog007 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog007 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -386,10 +386,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/006')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog006 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog006 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -398,10 +398,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/005')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog005 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog005 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -410,10 +410,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/004')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog004 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog004 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -422,10 +422,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/003')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog003 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog003 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -434,10 +434,10 @@ export default function Blog() {
                            {/*Card end*/}
                              {/* CARD */}
       <div onClick={()=>navigate('/blog/002')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog002 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog002 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 
@@ -446,10 +446,10 @@ export default function Blog() {
                    {/*Card end*/}
                              {/* CARD */}
                              <div onClick={()=>navigate('/blog/001')}
-      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-300'>
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-200 rounded-xl border-slate-500'>
           
          <div 
-          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-400 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog001 /></div>
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 bg-slate-50 overflow-hidden mt-2 text-sm"><Blog001 /></div>
           <div className='mb-2 mt-2'>
           <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
 

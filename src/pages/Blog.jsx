@@ -47,7 +47,7 @@ export default function Blog() {
      <h1 className='text-2xl font-medium  '>Blog</h1>
      <div className='flex flex-row flex-wrap justify-center'>
                   {/* CARD */}
-<div onClick={()=>navigate('/blog/03')}
+<div onClick={()=>navigate('/blog/035')}
       className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-400 rounded-xl border-slate-500'>
           
          <div 

@@ -44,6 +44,7 @@ import Footer from './components/Footer';
 import Blog032 from './pages/Blogs/Blog032';
 import Blog033 from './pages/Blogs/Blog033';
 import Blog034 from './pages/Blogs/Blog034';
+import Blog035 from './pages/Blogs/Blog035';
 
 
 function App() {
@@ -53,7 +54,7 @@ function App() {
     <Router>
       <Header />
       <div className='w-full flex justify-center'>
-      <div className='border-8 border-slate-300 w-[95vw] sm:w-[90vw] rounded-xl p-3 text-center'>
+      <div className='border-8 border-t-4 border-slate-500 w-[95vw] sm:w-[90vw] rounded-xl p-3 text-center'>
     <Routes>
 
     <Route exact path="/" element={<Home />} />
@@ -96,6 +97,7 @@ function App() {
     <Route exact path="/blog/032" element={<Blog032 />} />
     <Route exact path="/blog/033" element={<Blog033 />} />
     <Route exact path="/blog/034" element={<Blog034 />} />
+    <Route exact path="/blog/035" element={<Blog035 />} />
 
     </Routes>
     </div>

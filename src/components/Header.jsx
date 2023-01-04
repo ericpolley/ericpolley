@@ -28,9 +28,9 @@ export default function Header() {
     <div className='bg-slate-200 sticky'>
         {/* HEADER */}
         
-    <div className='w-full flex flex-row justify-center shadow-xl mb-4 '>
+    <div className='w-full flex flex-row justify-center shadow-xl mb-4  border-b-4 border-slate-500'>
    {/* NAV BAR */}
-        <div className='w-[80vw] flex justify-between mb-4 font-semibold'>
+        <div className='w-[80vw] flex justify-between mb-4 font-semibold '>
 
             {/* NAV BAR LOGO */}
             <div className='mt-4'>

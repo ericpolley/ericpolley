@@ -8,7 +8,7 @@ export default function Videos() {
       <div className='flex flex-col lg:flex-row w-full justify-center items-center'>
 
 {/* CARD START */}
-      <div className='flex flex-col w-full  items-center hover:text-black text-slate-700 bg-slate-400 lg:mr-6 rounded-xl border-4 border-slate-500 mt-4'>
+      <div className='flex flex-col w-full  items-center text-black bg-slate-400 lg:mr-6 rounded-xl border-4 border-slate-500 mt-4'>
         <p className='text-2xl mb-4 mt-4'>Vlog Videos</p>
         <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[35vw]  lg:h-[32vh] border-8 rounded-xl border-slate-500" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7dNEL7F1T4kxAp0mMuattO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         
@@ -17,7 +17,7 @@ export default function Videos() {
       </div>
       {/* CARD END */}
 {/* CARD START */}
-      <div className='flex flex-col w-full items-center hover:text-black text-slate-700 bg-slate-400  rounded-xl border-4 border-slate-500  mt-4'>
+      <div className='flex flex-col w-full items-center text-black bg-slate-400  rounded-xl border-4 border-slate-500  mt-4'>
         <p className='text-2xl mb-4 lg:mt-4'>Tutorials</p>
         <iframe className="shadow-xl mb-4 w-[82vw] h-[280px] md:h-[350px] lg:w-[35vw] lg:h-[32vh] border-8 rounded-xl border-slate-500" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7cHSt2HV5esEjQJKOG2GHG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         

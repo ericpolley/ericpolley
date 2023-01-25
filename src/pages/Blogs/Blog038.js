@@ -45,12 +45,12 @@ Software Developer Intern at In The Zone
         <ul>
         <li>
             <a
-              href="https://javascript.ericpolley.com"
-              title="Javascript Tutorials"
+              href="https://github.com/ericpolley/game-demo1-bq/archive/refs/heads/main.zip"
+              title="Play my game Demo"
               target="_blank"
               rel="noopener noreferrer" 
             >
-              <strong><p>Javascript Tutorial Website</p></strong></
+              <strong><p>Play my Game Demo</p></strong></
             a>
           </li>
         

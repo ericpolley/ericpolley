@@ -34,6 +34,7 @@ import Blog032 from "./Blogs/Blog032";
 import Blog033 from "./Blogs/Blog033";
 import Blog034 from "./Blogs/Blog034";
 import Blog035 from "./Blogs/Blog035";
+import Blog036 from "./Blogs/Blog036";
 
 
 
@@ -46,6 +47,28 @@ export default function Blog() {
       <div className='w-full text-center'>
      <h1 className='text-2xl font-medium  '>Blog</h1>
      <div className='flex flex-row flex-wrap justify-center'>
+      {/* CARD */}
+<div onClick={()=>navigate('/blog/037')}
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-400 rounded-xl border-slate-500'>
+          
+         <div 
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 hover:text-black text-slate-700 bg-slate-300 overflow-hidden mt-2 text-sm"><Blog037 /></div>
+          <div className='mb-2 mt-2'>
+          <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
+
+          </div></div> 
+        {/*Card end*/}
+        {/* CARD */}
+<div onClick={()=>navigate('/blog/036')}
+      className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-400 rounded-xl border-slate-500'>
+          
+         <div 
+          className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 hover:text-black text-slate-700 bg-slate-300 overflow-hidden mt-2 text-sm"><Blog036 /></div>
+          <div className='mb-2 mt-2'>
+          <p className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-4 text-sm'>Click to read more </p>
+
+          </div></div> 
+        {/*Card end*/}
                   {/* CARD */}
 <div onClick={()=>navigate('/blog/035')}
       className='cursor-pointer lg:w-[29%] w-full shadow-xl border-4 m-4 flex flex-col justify-center items-center bg-slate-400 rounded-xl border-slate-500'>

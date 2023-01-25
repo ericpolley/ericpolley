@@ -47,6 +47,7 @@ import Blog034 from './pages/Blogs/Blog034';
 import Blog035 from './pages/Blogs/Blog035';
 import Blog036 from './pages/Blogs/Blog036';
 import Blog037 from './pages/Blogs/Blog037';
+import Blog038 from './pages/Blogs/Blog038';
 
 
 function App() {
@@ -102,6 +103,7 @@ function App() {
     <Route exact path="/blog/035" element={<Blog035 />} />
     <Route exact path="/blog/036" element={<Blog036 />} />
     <Route exact path="/blog/037" element={<Blog037 />} />
+    <Route exact path="/blog/038" element={<Blog038 />} />
     </Routes>
     </div>
     </div>

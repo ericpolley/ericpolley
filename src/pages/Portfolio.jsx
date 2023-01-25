@@ -64,14 +64,14 @@ React.js, tailwind, and the react-router-dom.
                 {/* CARD */}
                 <div className='lg:w-[30%] w-full shadow-xl border-4 m-2 flex flex-col justify-center items-center text-black bg-slate-400 rounded-xl border-slate-500'>
           <p className=' font-semibold text-lg m-2'>Portfolio website September 2022</p>
-          <iframe scrolling="no"  className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500" src="https://ericpolley.github.io/www.ericpolley.com/" title="website" height="200"></iframe>
+          <iframe scrolling="no"  className="shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500" src="https://ericpolley.github.io/oldportfolio/" title="website" height="200"></iframe>
           <p className='mb-2 mt-2 text-sm'>
             This is an old portfolio website for Eric Polley. <br />
             Html, Css, and Javascript.
             </p>
           <div className='mb-2 mt-2'>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://ericpolley.github.io/www.ericpolley.com/">Project Link </a>
-          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/www.ericpolley.com">Github</a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://ericpolley.github.io/oldportfolio/">Project Link </a>
+          <a className='focus:text-blue-400 text-blue-700 hover:text-blue-300 m-8' rel="noreferrer"  target="_blank" href="https://github.com/ericpolley/oldportfolio">Github</a>
           </div></div> 
         {/*Card end*/}
         {/* CARD */}

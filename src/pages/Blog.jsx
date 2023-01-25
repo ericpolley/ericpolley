@@ -35,6 +35,7 @@ import Blog033 from "./Blogs/Blog033";
 import Blog034 from "./Blogs/Blog034";
 import Blog035 from "./Blogs/Blog035";
 import Blog036 from "./Blogs/Blog036";
+import Blog037 from "./Blogs/Blog037";
 
 
 

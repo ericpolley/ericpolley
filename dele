@@ -1,0 +1,12 @@
+<form
+  id="download-form"
+  action="https://drive.google.com/u/0/uc?id=1FFS0MwxkEapj2C80Z-pFspNWO8kmS_wL&amp;export=download&amp;confirm=t&amp;uuid=5817c4c6-384b-4edb-be90-def7727469e4&amp;at=ALgDtsy7ssr7dhUjoLrYdamaFod4:1675368119870"
+  method="post"
+>
+  <input
+    type="submit"
+    id="uc-download-link"
+    class="goog-inline-block jfk-button jfk-button-action"
+    value="Download anyway"
+  />
+</form>

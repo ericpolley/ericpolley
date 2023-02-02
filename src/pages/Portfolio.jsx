@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className='flex flex-row flex-wrap justify-center'>
         {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-2 flex flex-col justify-center items-center text-black bg-slate-400 rounded-xl border-slate-500'>
-          <p className=' font-semibold text-lg m-2'>Frank the Jelly</p>
+          <p className=' font-semibold text-lg m-2'>Frank the Jelly DEMO</p>
           <a rel="noreferrer" className="flex justify-center "  target="_blank" href="https://drive.google.com/u/0/uc?id=1FFS0MwxkEapj2C80Z-pFspNWO8kmS_wL&amp;export=download&amp;confirm=t&amp;uuid=5817c4c6-384b-4edb-be90-def7727469e4&amp;at=ALgDtsy7ssr7dhUjoLrYdamaFod4:1675368119870">
          <img src="https://github.com/ericpolley/ericpolley/blob/main/src/images/frank.png?raw=true" className=" shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 object-cover" alt="frank" />
          </a>
@@ -23,7 +23,7 @@ export default function Portfolio() {
         {/*Card end*/}
                 {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-2 flex flex-col justify-center items-center text-black bg-slate-400 rounded-xl border-slate-500'>
-          <p className=' font-semibold text-lg m-2'>Bionic Quandary</p>
+          <p className=' font-semibold text-lg m-2'>Bionic Quandary DEMO</p>
           <a rel="noreferrer" className="flex justify-center "  target="_blank" href="https://github.com/ericpolley/game-demo1-bq/raw/main/demo1-bq.zip">
          <img src="https://github.com/ericpolley/ericpolley/blob/main/src/images/bionictest.png?raw=true" className='shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 object-cover'  alt="frank" />
          </a>

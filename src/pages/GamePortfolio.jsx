@@ -14,6 +14,7 @@ export default function GamePortfolio() {
          <img src="https://github.com/ericpolley/ericpolley/blob/main/src/images/frank.png?raw=true" className=" shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 object-cover" alt="frank" />
          </a>
           <p className='mb-2 mt-2 text-sm'>
+            
             Platform side scroller PC Game. <br /> Created with UPBGE and Python. 
             </p>
           <div className='mb-2 mt-2'>

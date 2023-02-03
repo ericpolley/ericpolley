@@ -22,6 +22,7 @@ export default function Footer() {
                 </div> 
 
   
+  
 
 
 {/* NAV BAR sm and larger */}

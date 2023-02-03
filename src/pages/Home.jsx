@@ -43,7 +43,9 @@ export default function Home() {
         <img src="https://cdn1.iconfinder.com/data/icons/internet-of-things-24/160/blog-256.png"
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
          alt="Linkedin"></img></Link>
+
          {/* ICON End */}
+         
 
 
 

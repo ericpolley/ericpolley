@@ -22,17 +22,19 @@ export default function Footer() {
                 </div> 
 
   
-  
+
 
 
 {/* NAV BAR sm and larger */}
-<p className=' text-xs text-stone-400 w-full text-center pt-6'>This website and it's content belong to Eric Polley 2023.</p>
+
             <p className='mt-8 w-[55%] ml-6 lg:ml-40 text-right'>
                 <Link to="/contact" className='md:text-lg  text-xs mr-2 md:mr-4 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link>    
                
                 
             </p>
             </div>
+            <p className=' w-full text-xs text-stone-400 w-full text-center pt-3 pb-3'>This website and it's content belong to Eric Polley 2023.</p>
         </div>
+        
         </div>
   ) }

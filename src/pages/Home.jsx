@@ -56,7 +56,7 @@ export default function Home() {
 
    
       <Link to="/contact" className='flex items-center justify-center'>
-      <img className='rounded-full border-4 bg-slate-400 border-t-8 border-black md:m-4 md:w-[40vw] w-[60vw] h-[50vh] 
+      <img className='rounded-full border-4 bg-slate-400 border-t-8 border-black md:m-4 md:w-[60vw] w-[80vw] h-[350px] md:h-[420px] lg:h-[550px] xl:h-[600px] 2xl:h-[680px]
       object-cover hover:shadow-2xl hover:shadow-slate-700 shadow-slate-600 shadow-lg' 
       src="https://github.com/ericpolley/oldportfolio/blob/main/images/cartoonPortfolio2.gif?raw=true" alt="eric"></img>
      </Link>

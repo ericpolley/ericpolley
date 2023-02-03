@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div className='w-full text-center flex flex-col items-center justify-center '>
-      <h1 className='text-2xl font-medium mt-4'></h1>
+      <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
 
       <div className='flex flex-row justify-center items-center md:space-x-6 space-x-2 mb-4 mt-4'>
         {/* ICON */}
@@ -43,9 +43,8 @@ export default function Home() {
         <img src="https://cdn1.iconfinder.com/data/icons/internet-of-things-24/160/blog-256.png"
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
          alt="Linkedin"></img></Link>
-
          {/* ICON End */}
-         
+
 
 
 

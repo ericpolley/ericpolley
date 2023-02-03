@@ -7,7 +7,6 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
 import Videos from './pages/Videos';
 import Blog001 from "./pages/Blogs/Blog001";
 import Blog002 from "./pages/Blogs/Blog002";
@@ -49,6 +48,10 @@ import Blog036 from './pages/Blogs/Blog036';
 import Blog037 from './pages/Blogs/Blog037';
 import Blog038 from './pages/Blogs/Blog038';
 import Blog039 from './pages/Blogs/Blog039';
+import SoftwarePortfolio from './pages/SoftwarePortfolio';
+import GamePortfolio from './pages/GamePortfolio';
+import AnimationPortfolio from './pages/AnimationPortfolio';
+import Tutorials from './pages/Tutorials';
 
 
 function App() {
@@ -65,8 +68,12 @@ function App() {
     <Route exact path="/about" element={<About />} />
     <Route exact path="/blog" element={<Blog />} />
     <Route exact path="/contact" element={<Contact />} />
-    <Route exact path="/portfolio" element={<Portfolio />} />
-    <Route exact path="/videos" element={<Videos />} />
+    <Route exact path="/software" element={<SoftwarePortfolio />} />
+    <Route exact path="/portfolio" element={<SoftwarePortfolio />} />
+    <Route exact path="/game" element={<GamePortfolio />} />
+    <Route exact path="/animation" element={<AnimationPortfolio />} />
+    <Route exact path="/news" element={<Videos />} />
+    <Route exact path="/tutorials" element={<Tutorials />} />
     <Route exact path="/blog/001" element={<Blog001 />} />
     <Route exact path="/blog/002" element={<Blog002 />} />
     <Route exact path="/blog/003" element={<Blog003 />} />

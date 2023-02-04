@@ -10,7 +10,7 @@ export default function GamePortfolio() {
         {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-2 flex flex-col justify-center items-center text-black bg-slate-400 rounded-xl border-slate-500'>
           <p className=' font-semibold text-lg m-2'>Frank the Jelly DEMO</p>
-          <a rel="noreferrer" className="flex justify-center "  target="_blank" href="https://drive.google.com/u/0/uc?id=1FFS0MwxkEapj2C80Z-pFspNWO8kmS_wL&amp;export=download&amp;confirm=t&amp;uuid=5817c4c6-384b-4edb-be90-def7727469e4&amp;at=ALgDtsy7ssr7dhUjoLrYdamaFod4:1675368119870">
+          <a rel="noreferrer" className="flex justify-center "  target="_blank" href="https://erpolley.itch.io/frank-the-jelly-demo">
          <img src="https://github.com/ericpolley/ericpolley/blob/main/src/images/frank.png?raw=true" className=" shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 object-cover" alt="frank" />
          </a>
           <p className='mb-2 mt-2 text-sm'>

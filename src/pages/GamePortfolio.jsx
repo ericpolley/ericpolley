@@ -9,7 +9,7 @@ export default function GamePortfolio() {
       <div className='flex flex-row flex-wrap justify-center'>
                 {/* CARD */}
       <div className='lg:w-[30%] w-full shadow-xl border-4 m-2 flex flex-col justify-center items-center text-black bg-slate-400 rounded-xl border-slate-500'>
-          <p className=' font-semibold text-lg m-2'>Frank the Jelly DEMO</p>
+          <p className=' font-semibold text-lg m-2'>Diputs - Demo</p>
           <a rel="noreferrer" className="flex justify-center "  target="_blank" href="https://erpolley.itch.io/diputs-demo">
          <img src="https://img.itch.zone/aW1hZ2UvMTkyNTk1Mi8xMTMyMjM0OC5wbmc=/original/uSBukV.png" className=" shadow-lg w-[95%] h-[340px] border-4 rounded-md border-slate-500 object-cover" alt="frank" />
          </a>

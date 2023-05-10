@@ -7,43 +7,49 @@ export default function Home() {
       <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
 
       <div className='flex flex-row justify-center items-center md:space-x-6 space-x-2 mb-4 mt-4'>
-        {/* ICON */}
-      <Link to="/news">
-        <img src="https://cdn2.iconfinder.com/data/icons/business-development-6/24/Newspaper_news_daily_business_media_article_3-256.png"
-        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer border-4 border-t-8 border-black'
-         alt="Linkedin"></img></Link>
-         {/* ICON End */}
-      {/* ICON */}
-      <Link to="/game">
-        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-game-controller-b-256.png"
-        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer border-4 border-t-8 border-black'
-         alt="Linkedin"></img></Link>
-         {/* ICON End */}
-         {/* ICON */}
-      <Link to="/software">
-        <img src="https://cdn1.iconfinder.com/data/icons/jumpicon-marketing-glyph/32/-_Web-Page-Internet-Website-Browser-Window-256.png"
+                                   {/* ICON */}
+                                   <div class="flex-col justify-center">
+                                   <Link to="/blog">
+        <img src="https://cdn1.iconfinder.com/data/icons/internet-of-things-24/160/blog-256.png"
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
          alt="Linkedin"></img></Link>
          {/* ICON End */}
-                 {/* ICON */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Blog</p> </div>
+          {/* ICON */}
+          <div class="flex-col">
       <Link to="/animation">
         <img src="https://cdn0.iconfinder.com/data/icons/work-from-home-and-jobs-outline-style/512/animation-cartoon-design-character-Animator-3-256.png"
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
          alt="Linkedin"></img></Link>
          {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Animation</p> </div>
                           {/* ICON */}
+      {/* ICON */}
+      <div class="flex-col">
+      <Link to="/game">
+        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-game-controller-b-256.png"
+        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover hover:bg-blue-300 rounded-full cursor-pointer border-4 border-t-8 border-black'
+         alt="Linkedin"></img></Link>
+         {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Games</p> </div>
+         {/* ICON */}
+         <div class="flex-col">
+      <Link to="/software">
+        <img src="https://cdn1.iconfinder.com/data/icons/jumpicon-marketing-glyph/32/-_Web-Page-Internet-Website-Browser-Window-256.png"
+        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
+         alt="Linkedin"></img></Link>
+         {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm font-semibold">Web Dev</p> </div>
+                
+                          <div class="flex-col">
       <Link to="/tutorials">
         <img src="https://cdn1.iconfinder.com/data/icons/education-1-42/48/26-256.png"
         className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
          alt="Linkedin"></img></Link>
          {/* ICON End */}
+         <p className=" lg-text-xl md-text-sm  font-semibold">Tutorials</p> </div>
 
-                                   {/* ICON */}
-      <Link to="/blog">
-        <img src="https://cdn1.iconfinder.com/data/icons/internet-of-things-24/160/blog-256.png"
-        className='lg:w-32 lg:h-32 sm:w-28 w-16 h-auto object-cover object-center hover:bg-blue-300 rounded-full cursor-pointer  border-4 border-t-8 border-black'
-         alt="Linkedin"></img></Link>
-         {/* ICON End */}
+
 
 
 

@@ -66,9 +66,8 @@ export default function Header() {
     {/* Drop Down Menu */}
 
   <div id="myLinks" className="text-center absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
-    <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}>   
-    <p> <Link to="/news" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>News</span></Link></p> 
-    <p> <Link to="/game" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Download Games</span></Link></p>
+    <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}> 
+    <p> <Link to="/game" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Games</span></Link></p>
     <p> <Link to="/software" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Web Development</span></Link></p>
     <p> <Link to="/animation" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Animation</span></Link></p>
     <p> <Link to="/tutorials" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Tutorials</span></Link></p>

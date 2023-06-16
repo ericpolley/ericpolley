@@ -61,11 +61,7 @@ export default function Home() {
 
 
    
-      <Link to="/contact" className='flex items-center justify-center'>
-      <img className='rounded-full border-4 bg-slate-400 border-t-8 border-black md:m-4 md:w-[60vw] w-[80vw] h-[350px] md:h-[420px] lg:h-[550px] xl:h-[600px] 2xl:h-[680px]
-      object-cover hover:shadow-2xl hover:shadow-slate-700 shadow-slate-600 shadow-lg' 
-      src="https://github.com/ericpolley/oldportfolio/blob/main/images/cartoonPortfolio2.gif?raw=true" alt="eric"></img>
-     </Link>
+         <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[70vw] lg:h-[550px] border-8 rounded-xl border-slate-500" width="560" height="235" src="https://www.youtube.com/embed/LMcQgn61gfE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
      
      
     </div>

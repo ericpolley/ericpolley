@@ -53,6 +53,7 @@ import GamePortfolio from './pages/GamePortfolio';
 import AnimationPortfolio from './pages/AnimationPortfolio';
 import Tutorials from './pages/Tutorials';
 import Blog040 from './pages/Blogs/Blog040';
+import Blog041 from './pages/Blogs/Blog041';
 
 
 function App() {
@@ -114,6 +115,7 @@ function App() {
     <Route exact path="/blog/038" element={<Blog038 />} />
     <Route exact path="/blog/039" element={<Blog039 />} />
     <Route exact path="/blog/040" element={<Blog040 />} />
+    <Route exact path="/blog/041" element={<Blog041 />} />
     </Routes>
     </div>
     </div>

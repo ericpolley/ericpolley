@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div className='w-full text-center flex flex-col items-center justify-center '>
       <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
-
+<a href="http://flash.ericpolley.com">
+<img src="https://github.com/ericpolley/ericpolley/blob/main/src/images/flashdash-Banner-001-white.gif?raw=true" alt="banner" />
+</a>
       <div className='flex flex-row justify-center items-center md:space-x-6 space-x-2 mb-4 mt-4'>
                                    {/* ICON */}
                                    <div class="flex-col justify-center">

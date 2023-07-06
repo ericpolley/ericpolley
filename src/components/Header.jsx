@@ -28,7 +28,7 @@ export default function Header() {
     <div className='bg-slate-200 sticky'>
         {/* HEADER */}
         
-    <div className='w-full flex flex-row justify-center shadow-xl mb-4  border-b-4 border-slate-500'>
+    <div className='w-full flex flex-row justify-center shadow-xl mb-4  border-b-4 border-black'>
    {/* NAV BAR */}
         <div className='w-[80vw] md:w-[60vw] flex justify-between mb-4 font-semibold '>
 
@@ -36,7 +36,7 @@ export default function Header() {
             <div className='mt-4'>
             <Link to="/" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'>
               <h1 className=' text-3xl font-medium'>
-                <span className=' text-blue-700 hover:text-blue-300'>ericpolley</span>
+                <span className=' text-black hover:text-blue-300'>ericpolley</span>
                 <span className=' text-blue-900 hover:text-blue-300'>.com</span>
                 </h1>
                 </Link>        
@@ -47,7 +47,7 @@ export default function Header() {
   <div className="relative inline-block text-left mt-4">
     {/* NAV BUTTON DECOY */}
   <div id="navDecoy">
-    <button onClick={showNav} type="button" className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md shadow-slate-400 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
+    <button onClick={showNav} type="button" className="inline-flex w-full justify-center rounded-md border border-black bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-md shadow-slate-400 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
@@ -56,7 +56,7 @@ export default function Header() {
 {/* NAV BUTTON */}
   <div id="navButton" className='hidden'>
 
-    <button onClick={hideNav} type="button" className=" inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-lg shadow-slate-500 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
+    <button onClick={hideNav} type="button" className=" inline-flex w-full justify-center rounded-md border border-black bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-lg shadow-slate-500 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100" id="menu-button" aria-expanded="true" aria-haspopup="true">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
@@ -67,11 +67,10 @@ export default function Header() {
 
   <div id="myLinks" className="text-center absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
     <div className="py-1 flex flex-col text-center" role="none" onClick={hideNav}> 
-    <p> <Link to="/game" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Games</span></Link></p>
-    <p> <Link to="/software" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Web Development</span></Link></p>
+    
     <p> <Link to="/animation" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Animation</span></Link></p>
     <p> <Link to="/tutorials" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Tutorials</span></Link></p>
-    <p> <Link to="/blog" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Blog</span></Link></p>
+   
     <p> <Link to="/about" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>About</span></Link></p>
     <p> <Link to="/contact" className=' mr-3 focus:text-blue-400 text-blue-700 hover:text-blue-300'><span>Contact</span></Link></p>
     

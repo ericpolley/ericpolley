@@ -54,7 +54,7 @@ import AnimationPortfolio from './pages/AnimationPortfolio';
 import Tutorials from './pages/Tutorials';
 import Blog040 from './pages/Blogs/Blog040';
 import Blog041 from './pages/Blogs/Blog041';
-import Myhelm from './components/helm';
+
 
 
 
@@ -64,7 +64,7 @@ function App() {
     <>
     <Router>
       <Header />
-      <Myhelm />
+     
       
       <div className='w-full flex justify-center cursor-default'>
       <div className='border-8 border-t-4 bg-slate-300 border-black w-[95vw] sm:w-[90vw] rounded-xl p-3 text-center cursor-default'>

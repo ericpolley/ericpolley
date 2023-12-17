@@ -20,9 +20,7 @@ export default function AnimationPortfolio() {
 </Link>
 <iframe className='md:w-[320px] md:h-[560px] sm:w-[180px] sm:h-[360px] shadow-xl md:mb-4  border-8 rounded-xl border-black' width="315" height="560" src="https://www.youtube-nocookie.com/embed/videoseries?si=FRm9G0gG6cFa5pKd&amp;list=PLce5_YZyrUw7J8jSN5vAaqg5YOTrJ4z0v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        <p className='text-md lg:mb-12 mt-4 pt-2 pr-5 pl-5 pb-5 h-[100px] p-1 mb-32'>This is my animation portfolio. <br />
-         My favorite tools to use together are the Grease Pencil and 3d modeling tools provided by Blender. <br />
-        I am well equipped with the Adobe Suite, specifically Animate CC, Photoshop, Animate CC, and Premiere Pro.
+        <p className='text-md lg:mb-12 mt-4 pt-2 pr-5 pl-5 pb-5 h-[100px] p-1 mb-32'>
         </p>
       </div>
       {/* CARD END */}

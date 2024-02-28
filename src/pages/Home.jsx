@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div className='w-full text-center flex flex-col items-center justify-center '>
-      <div className='sm:flex md:flex-row md:items-center md:ml-4 md:mr-4'>
+           <iframe className="shadow-xl mb-2 md:mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[70vw] lg:h-[550px] border-8 rounded-xl border-black" width="560" height="235" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLce5_YZyrUw6cXu0RujxX5kBiVl9zxJT7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+       
+      <div className='md:flex lg:flex-row items-center md:ml-4 md:mr-4'>
         <div className='md:flex md:flex-col md:justify-center md:object-center text-center md:items-center'>
       <h1 className='text-2xl font-medium mt-4 hidden'>Eric Polley - Software Engineer, Animator, Game Designer, Jack of all hats</h1>
 
@@ -19,8 +21,7 @@ export default function Home() {
 </div>
 </div>
 
-         <iframe className="shadow-xl mb-2 md:mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[70vw] lg:h-[550px] border-8 rounded-xl border-black" width="560" height="235" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLce5_YZyrUw6cXu0RujxX5kBiVl9zxJT7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-         <Link to="/contact" className=' '>
+      <Link to="/contact" className=' '>
 <div className='m-2 mb-12 p-2 bg-red-500 text-white hover:text-black hover:border-gray-600 hover:bg-red-300 border-black rounded-xl border-4 text-xl w-[40vw]'>
   <p>Contact for a quote</p>
 </div>

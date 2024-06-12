@@ -11,7 +11,7 @@ export default function AnimationPortfolio() {
 {/* CARD START */}
       <div className='flex flex-col w-full p-1  items-center text-black bg-slate-400 lg:mr-6 rounded-xl border-4 border-black mt-4 mb-4'>
         <p className='mt-4'></p>
-        <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[70vw] lg:h-[550px] border-8 rounded-xl border-black" width="560" height="235" src="https://www.youtube.com/embed/videoseries?list=PLce5_YZyrUw7jK6fWK-32ZZfZ4sqX607K" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe className="shadow-xl mb-4 w-[85vw] h-[280px] md:h-[350px] md:w-[82vw] lg:w-[70vw] lg:h-[550px] border-8 rounded-xl border-black" width="560" height="235" src="https://www.youtube.com/embed/videoseries?si=4NF8JiKNxJaGjv9Z&amp;list=PLce5_YZyrUw5ypUsGQNn-QHdTfmYGSiNn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <Link to="/contact" className=' '>
 <div className='m-5 p-2 bg-red-500 text-white hover:text-black hover:border-gray-600 hover:bg-red-300 border-black rounded-xl border-4 text-xl w-[40vw]'>
   <p>Contact for a quote</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 export default function Home() {
   return (
@@ -18,12 +18,12 @@ Explore my work in both animation and video editing/videography. With a solid ba
   <div className='flex justify-center w-full '>
     <div className='m-2'>
       <a href="http://animation.ericpolley.com">
-  <img src="https://cdn.pixabay.com/photo/2016/09/17/16/19/anime-1676437_960_720.jpg" alt="animation" className='hover:shadow-2xl w-[400px] rounded-full border-8 border-black ' />
+  <img src="https://i.ytimg.com/vi/cBW5SK9Qa6g/hqdefault.jpg" alt="animation" className='hover:shadow-2xl hover:brightness-125 w-[400px] rounded-full border-8 border-black ' />
   Animation
   </a>
   </div> <div  className='m-2'>
     <a href="http://video.ericpolley.com">
-  <img src="https://cdn.pixabay.com/photo/2019/07/29/21/27/filming-4371566_1280.jpg" alt="animation" className='hover:shadow-2xl w-[400px] rounded-full border-8 border-black ' />
+  <img src="https://github.com/ericpolley/flashdashdesign/blob/main/ericvideo.png?raw=true" alt="animation" className='hover:shadow-2xl w-[400px] hover:brightness-125 rounded-full border-8 border-black ' />
   Video
   </a></div>
   </div>
@@ -31,11 +31,7 @@ Explore my work in both animation and video editing/videography. With a solid ba
 
 </div>
 
-      <Link to="/contact" className=' '>
-<div className='m-2 mt-48 mb-12 p-2 bg-red-500 text-white hover:text-black hover:border-gray-600 hover:bg-red-300 border-black rounded-xl border-4 text-xl w-[40vw]'>
-  <p>Contact for a quote</p>
-</div>
-</Link>
+
 
     </div>
   )
